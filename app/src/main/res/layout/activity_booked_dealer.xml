@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    tools:context=".BookedDealer"
+    android:id="@+id/nav_book"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:background="@color/purple"
+        android:clipToPadding="true"
+        android:paddingStart="16dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="144dp"
+            android:layout_height="53dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="-14dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/farmer" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:text="Book Your Dealer"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="34dp"
+            android:background="@drawable/search_by"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Search Nearest Dealer"
+            android:textColor="@color/colorAccent"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="154dp"
+        android:text="Recent"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="22dp"
+        android:text="See All"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recents_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="236dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="22dp"
+        android:scrollbars="vertical"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="376dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+
+        android:layout_marginTop="470dp"
+        android:layout_marginBottom="127dp"
+        android:text="Top Dealers"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/top_dealer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="490dp"
+
+        android:scrollbars="vertical"/>
+
+
+</RelativeLayout>

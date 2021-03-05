@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "860902387746",
+    "firebase_url": "https://rabbi-kissan.firebaseio.com",
+    "project_id": "rabbi-kissan",
+    "storage_bucket": "rabbi-kissan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860902387746:android:58018188e686e1d517da7b",
+        "android_client_info": {
+          "package_name": "com.example.rabbikissan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860902387746-gfgtjgk9q22ffs6jm311untol05ri53g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLIjuSrvgS5wvfi0fJcdYwZmvd1eU7lQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860902387746-gfgtjgk9q22ffs6jm311untol05ri53g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

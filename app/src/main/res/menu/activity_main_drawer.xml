@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+
+            android:id="@+id/nav_seller"
+            android:icon="@drawable/ic_baseline_emoji_people_24"
+            android:title="My Seller" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_baseline_list_24"
+            android:title="My Booking" />
+        <item
+            android:id="@+id/nav_crop"
+            android:icon="@drawable/ic_baseline_grass_24"
+            android:title="Crops Rate" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_baseline_chat_24"
+            android:title="Any Problems?" />
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:title="Rating" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Account Setting" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_baseline_keyboard_backspace_24"
+            android:title="Log Out" />
+        <item
+            android:id="@+id/nav_login_another"
+            android:icon="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:title="Login with another account ?" />
+    </group>
+</menu>

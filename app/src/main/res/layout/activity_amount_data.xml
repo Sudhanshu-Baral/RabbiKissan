@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp"
+    android:padding="15dp"
+    tools:context=".Amount_data">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorPrimary">
+
+        <EditText
+            android:id="@+id/fullNam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_ro"
+            android:ems="10"
+            android:hint=" Full Name"
+            android:inputType="text"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="MissingClass" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorPrimary">
+
+        <EditText
+            android:id="@+id/emailj"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_ro"
+            android:ems="10"
+            android:hint=" Email"
+            android:inputType="text"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="MissingClass" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorPrimary">
+
+
+        <EditText
+            android:id="@+id/phoneNumberr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_ro"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="MissingClass" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorPrimary">
+
+        <EditText
+            android:id="@+id/CropName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_ro"
+            android:ems="10"
+            android:hint="Crop Name"
+            android:inputType="text"
+            android:textSize="22sp"
+            android:textStyle="bold
+"
+            tools:ignore="MissingClass" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorPrimary">
+
+        <EditText
+            android:id="@+id/CropQuality"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:background="@drawable/button_ro"
+            android:ems="10"
+            android:hint=" Crop Quality"
+            android:inputType="text"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="MissingClass" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorPrimary">
+
+        <EditText
+            android:id="@+id/cropAmount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_ro"
+            android:ems="10"
+            android:hint=" Crop Amount"
+            android:inputType="text"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="MissingClass" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/detboked"
+        android:layout_width="269dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buton_rounded"
+        android:text="Booked"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

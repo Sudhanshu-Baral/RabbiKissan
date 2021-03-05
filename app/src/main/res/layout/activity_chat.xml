@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nav_chat"
+    tools:context=".Chat">
+
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/iv_msg"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginBottom="55dp"
+    >
+
+  </androidx.recyclerview.widget.RecyclerView>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="0dp"
+      android:layout_marginTop="546dp"
+      android:layout_marginBottom="6dp"
+      android:background="@color/green"
+      android:paddingTop="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <EditText
+        android:id="@+id/text_msg"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/colorPrimary"
+        android:hint="Enter message"
+        />
+      <ImageButton
+          android:layout_width="45dp"
+          android:layout_height="45dp"
+        android:id="@+id/sent_btn"
+        android:src="@drawable/ic_action_send"
+        android:background="@drawable/button_ro"
+        />
+
+    </LinearLayout>
+  </RelativeLayout>
+
+  <!--com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:clickable="true"
+      android:src="@drawable/ic_action_send"
+      android:id="@+id/fab"
+      android:tint="@android:color/black"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentEnd="true"
+      app:fabSize="mini"
+      >
+
+  </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/fab"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Message.."
+            android:id="@+id/input"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+  <ListView
+      android:id="@+id/list_of_message"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@id/fab"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="1dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="16dp"
+      android:divider="@android:color/transparent"
+      android:dividerHeight="16dp">
+
+
+
+  </ListView>
+
+  <ImageView
+      android:id="@+id/imageView17"
+      android:layout_width="34dp"
+      android:layout_height="20dp"
+      app:srcCompat="@drawable/ic_baseline_person_24" />
+  <EditText
+      android:id="@+id/edit1"
+      android:layout_width="172dp"
+      android:layout_height="33dp"
+      android:textSize="10dp"
+      android:background="@drawable/button_ro"
+
+
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="12dp"
+      android:text="Rajat Sahoo" />
+
+
+  <EditText
+      android:layout_width="183dp"
+      android:layout_height="48dp"
+      android:layout_below="@+id/edit1"
+      android:layout_marginStart="10dp"
+      android:textSize="12dp"
+      android:background="@drawable/button_ro"
+
+      android:text="I want to Know about my Product Quality" /-->
+  
+
+</RelativeLayout>

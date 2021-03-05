@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rabbikissan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RabbiKissan">
+        <activity android:name=".Confirm_booked"></activity>
+        <activity android:name=".Rating" />
+        <activity android:name=".Rating_given" />
+        <activity android:name=".Amount_data" />
+        <activity android:name=".Sign_in" />
+        <activity android:name=".NavigationMora" />
+        <activity android:name=".Dealer_detail" />
+        <activity android:name=".BookedDealer" />
+        <activity
+            android:name=".RiceActivity"
+            android:label="Rice"
+            android:theme="@style/Theme.RabbiKissan.NoActionBar" />
+        <activity android:name=".Chat" />
+        <activity android:name=".CropsRate" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".Upload_Dealer" />
+        <activity android:name=".Dealer" />
+        <activity
+            android:name=".SignUp_Form"
+            android:label="@string/title_activity_front_open" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Front_Open"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/violet"
+
+    tools:context=".Sign_in"
+    android:orientation="vertical"
+    android:padding="30dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="168dp"
+        android:background="@drawable/ic_wave__1_">
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="97dp"
+            android:layout_height="66dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="27dp"
+            app:srcCompat="@drawable/ic_baseline_person_24" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="0dp"
+            android:text="Already Have an Account ?"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorPrimary">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:background="@drawable/button_ro"
+            android:ems="10"
+            android:hint="Email"
+            android:textColor="@color/colorPrimary"
+            android:inputType="text"
+
+
+            android:textSize="22sp"
+            tools:ignore="MissingClass" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorPrimary"
+
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_ro"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="22sp"
+            tools:ignore="MissingClass" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="212dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+
+
+
+        android:text="Forget Your Password ?"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="250dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buton_rounded"
+        android:text="LOG IN"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="16sp" />
+
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginBottom="16dp"
+        android:text="Or"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="251dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buton_rounded"
+        android:onClick="btn_signupForm"
+        android:text="Not a member ? Resister"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="14sp" />
+</LinearLayout>

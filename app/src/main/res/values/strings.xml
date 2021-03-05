@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">Rabbi Kissan</string>
+    <string name="title_activity_sign_up__form" translatable="false">SignUp_Form</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="title_activity_main" translatable="false"> MainActivity</string>
+    <string name="title_activity_sign_in" translatable="false">Sign_in</string>
+
+    <!--to toggle the open close button
+            of the navigation drawer-->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_rice">Rice </string>
+    <string name="title_activity_front_open"> Front_Open</string>
+    <string name="title_activity_navigation_drawer">Navigation_drawer</string>
+    <string name="title_activity_navigation_mine">NavigationMine</string>
+</resources>
