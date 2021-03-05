@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Rabbi Kissn</string>
+    <string name="app_name" translatable="false">Rabbi Kissan</string>
     <string name="title_activity_sign_up__form" translatable="false">SignUp_Form</string>
     <!--
     This string is used for square devices and overridden by hello_world in
