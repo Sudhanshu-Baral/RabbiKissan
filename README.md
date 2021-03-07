@@ -12,4 +12,6 @@ It is a technology-based agriculture android app specially made for Indian farme
 ## Homepage
 ![Optional Text](RabbiKisaan/Home.png)
 
+## Upload Dealer Profile
+![Optional Text](RabbiKisaan/Upload.png)
 
