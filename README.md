@@ -15,6 +15,9 @@ It is a technology-based agriculture android app specially made for Indian farme
 ## Booked Dealer
 ![Optional Text](RabbiKisaan/Booked.png)
 
+## Crops Rate
+![Optional Text](RabbiKisaan/Crops Rate.png)
+
 
 
 ## Rating
